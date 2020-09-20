@@ -5,12 +5,10 @@ import Slider from './Slider';
 function App() {
   return(
     <div className='container'>
-      <div className='main-image'>
-        IMAGE
-      </div>
       <div className='sidebar'>
         SIDEBAR
       </div>
+      <div className='main-image'/>
       <Slider />
     </div>
   )
